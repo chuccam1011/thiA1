@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Ôn thi A1</string>
-    <string name="activity_chonde">Đây là Activity B</string>
-    <string name="button_call">Call Activity B</string>
+    <string name="activity_chonde"></string>
+    <string name="Ontap"></string>
+    <string name="Meothi"></string>
+    <string name="button_call"></string>
 </resources>

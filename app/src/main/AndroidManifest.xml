@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.Activity_chonde"/>
+        <activity android:name=".Activity.Ontap"/>
+        <activity android:name=".Activity.Meothi"/>
     </application>
 
 </manifest>
