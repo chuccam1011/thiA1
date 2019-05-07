@@ -100,13 +100,6 @@
             android:text="Câu trước" />
 
         <Button
-            android:id="@+id/buttonDapAn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="đáp án" />
-
-        <Button
             android:id="@+id/buttonCauTiep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
