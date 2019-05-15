@@ -12,11 +12,11 @@ public class Database extends SQLiteOpenHelper {
     }
 
     //truy vana ko kete quar
-
-    public void QueryData(String sql){
-        SQLiteDatabase database= getWritableDatabase();
-        database.execSQL(sql);
-    }
+//
+//    public void QueryData(String sql){
+//        SQLiteDatabase database= getWritableDatabase();
+//        database.execSQL(sql);
+//    }
 /// láy dũ liệu
     public Cursor GetData(String sql){
         SQLiteDatabase database= getReadableDatabase();

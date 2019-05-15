@@ -1,12 +1,13 @@
 package com.example.ongthia1.model;
 
 public class cauhoi {
+    private String dapan;
     private int id;//mã câu hỏi
     private String vanbanhoi;//hiẻn thị  văn bản đẻ hỏi
     private String ima;// duogn dan tói ảnh
     private int sodapan;//sso dáp án hiẻn thị  cho  mỗi cau hỏi
     private String text1,text2,text3,text4;// văn bản  hiển  thị  cho các đáp án
-    private boolean dapan1,dapan2,dapan3,dapan4;//ddap só cho các đáp án
+
 
     public cauhoi(int id, String vanbanhoi, String ima, int sodapan, String text1, String text2, String text3, String text4, boolean dapan1, boolean dapan2, boolean dapan3, boolean dapan4) {
         this.id = id;
@@ -17,10 +18,8 @@ public class cauhoi {
         this.text2 = text2;
         this.text3 = text3;
         this.text4 = text4;
-        this.dapan1 = dapan1;
-        this.dapan2 = dapan2;
-        this.dapan3 = dapan3;
-        this.dapan4 = dapan4;
+        this.dapan = dapan;
+
     }
 
     public int getId() {
@@ -83,39 +82,16 @@ public class cauhoi {
         return text4;
     }
 
+    public String getDapan() {
+        return dapan;
+    }
+
+    public void setDapan(String dapan) {
+        this.dapan = dapan;
+    }
+
     public void setText4(String text4) {
         this.text4 = text4;
     }
 
-    public boolean isDapan1() {
-        return dapan1;
-    }
-
-    public void setDapan1(boolean dapan1) {
-        this.dapan1 = dapan1;
-    }
-
-    public boolean isDapan2() {
-        return dapan2;
-    }
-
-    public void setDapan2(boolean dapan2) {
-        this.dapan2 = dapan2;
-    }
-
-    public boolean isDapan3() {
-        return dapan3;
-    }
-
-    public void setDapan3(boolean dapan3) {
-        this.dapan3 = dapan3;
-    }
-
-    public boolean isDapan4() {
-        return dapan4;
-    }
-
-    public void setDapan4(boolean dapan4) {
-        this.dapan4 = dapan4;
-    }
 }

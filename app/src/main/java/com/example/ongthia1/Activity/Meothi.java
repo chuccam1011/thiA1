@@ -15,7 +15,7 @@ public class Meothi extends AppCompatActivity {
         WebView ww = (WebView) findViewById(R.id.webViewMeothi);
         ww.getSettings().setJavaScriptEnabled(true);
         ww.getSettings().setBuiltInZoomControls(true);
-        ww.loadUrl("file:///android_asset/cau1.html");
+        ww.loadUrl("file:///android_asset/meothi.html");
 
     }
 }
