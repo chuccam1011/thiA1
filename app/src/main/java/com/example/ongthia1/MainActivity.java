@@ -11,14 +11,11 @@ import com.example.ongthia1.Activity.Meothi;
 import com.example.ongthia1.Activity.Ontap;
 import com.example.ongthia1.Activity.Thi;
 import com.example.ongthia1.data.Database;
-import com.example.ongthia1.model.cauhoi;
-import com.example.ongthia1.model.traloi;
+
 
 public class MainActivity extends AppCompatActivity {
 
     Database database;
-    cauhoi cauhoi;
-    traloi traloi;
 
     Button buttonChonde,buttonThithu;
     Button buttonOnthi,buttonmeothi,buttonsahinh;
